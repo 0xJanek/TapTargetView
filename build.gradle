@@ -4,8 +4,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.2.2'
-        classpath 'com.vanniktech:gradle-maven-publish-plugin:0.17.0'
+        classpath 'com.android.tools.build:gradle:8.1.1'
     }
 }
 
@@ -14,7 +13,7 @@ ext {
     defAndroidAnnotationVersion = '1.2.0'
     defAppCompatVersion = '1.3.0'
     defMaterialVersion = '1.4.0'
-    defCompileSdkVersion = 30
+    defCompileSdkVersion = 33
     defMinSdkVersion = 14
 }
 
